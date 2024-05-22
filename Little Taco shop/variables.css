@@ -1,0 +1,62 @@
+
+:root{
+    /* FONTS */
+
+    --FF:sans-serif;
+    --FF-HEADINGS:Tahoma;
+    --FS:clamp(1rem, 2vh, 2rem);
+
+    /* COLORS */
+
+    --BGCOLOR-FADE:rgb(252,220,160);
+    --BGCOLOR:Orange;
+    --BGIMAGE:linear-gradient(to bottom, var(--BGCOLOR), var(--BGCOLOR-FADE));
+    --BODY-BGCOLOR:white;
+    --BORDER-COLOR:#333;
+    --BUTTON-COLOR:white;
+    --FONT-COLOR:black;
+    --HEADER-BGCOLOR:black;
+    --HEADER-COLOR:white;      
+    --HERO-BGCOLOR:rgba(51,178,51,0.75);
+    --HERO-COLOR:white;
+    --HIGHLIGHT-COLOR:rgb(51,178,51);
+    --LINK-ACTIVE:orange;
+    --LINK-COLOR:black;   
+    --LINK-HOVER:hsla(0, 0%, 0%, 0.6);
+    --NAV-BGCOLOR:white;
+
+    /* BORDERS */
+    --BORDERS:1px solid var(--BORDER-COLOR);
+    --BORDER-RADIUS:15px;
+
+    /* STANDARD PADDING */
+    --PADDING-TB:0.2rem;
+    --PADDING-SIDE:2%;
+
+    /* STANDARD MARGIN */
+    --MARGIN:clamp(1em, 2.5vh, 1.5em) ;
+
+
+
+
+
+}
+
+@media(prefers-color-scheme: dark){
+    :root{
+        --BGCOLOR-FADE:gray;
+        --BGCOLOR:black;
+        --BODY-BGCOLOR: #333;
+        --BORDER-COLOR:whitesmoke;
+        --BUTTON-COLOR:black;
+        --FONT-COLOR:whitesmoke;
+        --HEADER-color:whitesmoke;
+        --HERO-COLOR:#333;
+        --HIGHLIGHT-COLOR:whitesmoke;
+        --LINK-ACTIVE:rgb(252, 200, 103);
+        --LINK-COLOR:whitesmoke;
+        --LINK-HOVER:orange;
+        --NAV-BGCOLOR:rgb(20,20,20);
+
+    }
+}
